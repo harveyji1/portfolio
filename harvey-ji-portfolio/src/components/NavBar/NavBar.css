@@ -1,0 +1,8 @@
+.navbar {
+    position: fixed !important;  /* Fixes the NavBar at the top */
+    top: 0 !important;
+    left: 0;
+    width: 100%;
+    z-index: 1000;  /* Ensures the NavBar stays above other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Adds a shadow for separation */
+  }
