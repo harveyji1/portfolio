@@ -2,7 +2,7 @@
 import gradPhoto from './assets/img/graduationphotocropped.jpg';
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
-import Footer from './components/Footer/TempFooter';
+import Footer from './components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
