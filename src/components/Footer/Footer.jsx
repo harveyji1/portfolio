@@ -4,11 +4,11 @@ export const Footer = () => {
     return (
         <footer className = "footer">
             <Container>
-                <Row className = "align-item-center">
+                <Row>
                 <Col sm={6}>
-                    <p>This is my footer</p>
+                    <p>Sick footer Bro!</p>
                 </Col>
-                <Col sm = {6} className="text-center text-sm-end">
+                <Col sm = {6}>
                     <p>CopyRight 2024. All Right Reserved</p>
                 </Col>
                 </Row>

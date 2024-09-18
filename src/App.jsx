@@ -10,13 +10,15 @@ function App() {
   return (
     <>
     <NavBar/>
-    <div className='main-content'>
-      <div>
-        <img src={gradPhoto}/>
+    <div className='wrapper'>
+      <div className='main-content'>
+        <div>
+          <img src={gradPhoto}/>
+        </div>
+        <h1>Coming Soon</h1>
       </div>
-      <h1>Coming Soon</h1>
-      <Footer/>
     </div>
+    <Footer/>
     </>
   )
 }
