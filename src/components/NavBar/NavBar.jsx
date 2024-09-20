@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 //import NavDropdown from 'react-bootstrap/NavDropdown';
 import './NavBar.css';
 import { useState, useEffect } from 'react';
-import { SiIndeed, SiLinkedin, SiInstagram } from 'react-icons/si';
+import { SiIndeed, SiLinkedin, SiGithub } from 'react-icons/si';
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState('');
@@ -33,7 +33,6 @@ function NavBar() {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home">Harvey's Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
@@ -47,7 +46,7 @@ function NavBar() {
             <div className="social-icons">
               <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage"><SiIndeed/></a>
               <a href="https://www.linkedin.com/in/harvey-ji-69a630200/"><SiLinkedin/></a>
-              <a href="https://www.instagram.com/harv.g/?next=%2F&hl=en"><SiInstagram/></a>
+              <a href="https://github.com/harveyji1"><SiGithub/></a>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}>
               <span>Let's Connect</span>
