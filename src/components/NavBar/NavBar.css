@@ -5,6 +5,9 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  background-color: #4b515d;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 nav.navbar.scrolled {
   padding: 0px 0;

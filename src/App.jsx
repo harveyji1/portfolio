@@ -11,12 +11,49 @@ function App() {
     <>
     <NavBar/>
     <div className='wrapper'>
-      <div className='main-content'>
+      <div id="home">
         <div>
-          <img src={gradPhoto}/>
+          <img src={gradPhoto} className='gradphoto'/>
         </div>
-        <h1>Coming Soon</h1>
+        <h1>Home</h1>
+        <h2>Coming Soon</h2>
       </div>
+      <div id="aboutme">
+        <div>
+          <img src={gradPhoto} className='gradphoto'/>
+        </div>
+        <h1>About Me</h1>
+        <h2>Coming Soon</h2>
+      </div>
+      <div id="skills">
+        <div>
+          <img src={gradPhoto} className='gradphoto'/>
+        </div>
+        <h1>Skills</h1>
+        <h2>Coming Soon</h2>
+      </div>
+      <div id="coursework">
+        <div>
+          <img src={gradPhoto} className='gradphoto'/>
+        </div>
+        <h1>Course Work</h1>
+        <h2>Coming Soon</h2>
+      </div>
+      <div id="resume">
+        <div>
+          <img src={gradPhoto} className='gradphoto'/>
+        </div>
+        <h1>Projects</h1>
+        <h2>Coming Soon</h2>
+      </div>
+      <div id="projects">
+        <div>
+          <img src={gradPhoto} className='gradphoto'/>
+        </div>
+        <h1>Projects</h1>
+        <h2>Coming Soon</h2>
+      </div>
+
     </div>
     <Footer/>
     </>
