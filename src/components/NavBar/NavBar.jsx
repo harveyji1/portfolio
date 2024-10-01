@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import './NavBar.css';
 import { useState, useEffect } from 'react';
 import { SiIndeed, SiLinkedin, SiGithub } from 'react-icons/si';
+import DarkModeToggle from '../DarkModeToggle/DarkModeToggle';
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState('');
@@ -33,6 +34,10 @@ function NavBar() {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
+      <div className="navbar-sections">
+        <div className="navbar-section">
+          <DarkModeToggle/>
+        </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
@@ -45,6 +50,8 @@ function NavBar() {
             <Nav.Link href="#resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
           </Nav>
+        
+          <div className="navbar-section">
           <span className='navbar-text'>
             <div className="social-icons">
               <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage"><SiIndeed/></a>
@@ -55,7 +62,9 @@ function NavBar() {
               <span>Let's Connect</span>
             </button>
           </span>
+          </div>
         </Navbar.Collapse>
+        </div>
       </Container>
     </Navbar>
   );

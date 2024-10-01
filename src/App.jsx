@@ -1,8 +1,9 @@
 //import { useState } from 'react'
-import gradPhoto from './assets/img/graduationphotocropped.jpg';
+//import gradPhoto from './assets/img/graduationphotocropped.jpg';
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -11,21 +12,16 @@ function App() {
     <>
     <NavBar/>
     <div className='wrapper'>
-      <div id="home">
-        <div>
-          <img src={gradPhoto} className='gradphoto'/>
-        </div>
-        <h1>Home</h1>
-        <h2>Coming Soon</h2>
-      </div>
-      <div id="aboutme">
+      <Home/>
+      <h1>The rest of the portfolio is coming soon!</h1>
+      {/* <div id="aboutme">
         <div>
           <img src={gradPhoto} className='gradphoto'/>
         </div>
         <h1>About Me</h1>
         <h2>Coming Soon</h2>
-      </div>
-      <div id="skills">
+      </div> */}
+      {/* <div id="skills">
         <div>
           <img src={gradPhoto} className='gradphoto'/>
         </div>
@@ -43,7 +39,7 @@ function App() {
         <div>
           <img src={gradPhoto} className='gradphoto'/>
         </div>
-        <h1>Projects</h1>
+        <h1>Resume</h1>
         <h2>Coming Soon</h2>
       </div>
       <div id="projects">
@@ -52,7 +48,7 @@ function App() {
         </div>
         <h1>Projects</h1>
         <h2>Coming Soon</h2>
-      </div>
+      </div> */}
 
     </div>
     <Footer/>
