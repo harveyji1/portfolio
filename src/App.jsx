@@ -4,6 +4,7 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
+import AboutMe from './components/AboutMe/AboutMe';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     <NavBar/>
     <div className='wrapper'>
       <Home/>
-      <h1>The rest of the portfolio is coming soon!</h1>
+      <AboutMe/>
+      <h1 style={{paddingTop: "150px", paddingBottom: "150px"}}>The rest of the portfolio is coming soon!</h1>
       {/* <div id="aboutme">
         <div>
           <img src={gradPhoto} className='gradphoto'/>
