@@ -5,11 +5,11 @@ function Home(){
     return(
     <div id="home">
         <h5>Hello, I am</h5>
-        <div>
+        <h1>HARVEY JI</h1>
+        <h6>Software Engineer and QA</h6>
+        <div className="gradphotoContainer">
             <img src={gradPhoto} className='gradphoto'/>
         </div>
-
-        <h1>Harvey Ji</h1>
         <h3>Welcome to my portfolio</h3>
     </div>
     );
