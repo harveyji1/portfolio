@@ -5,6 +5,7 @@ import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import AboutMe from './components/AboutMe/AboutMe';
+import Resume from './components/Resume/Resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -15,14 +16,8 @@ function App() {
     <div className='wrapper'>
       <Home/>
       <AboutMe/>
+      <Resume/>
       <h1 style={{paddingTop: "150px", paddingBottom: "150px"}}>The rest of the portfolio is coming soon!</h1>
-      {/* <div id="aboutme">
-        <div>
-          <img src={gradPhoto} className='gradphoto'/>
-        </div>
-        <h1>About Me</h1>
-        <h2>Coming Soon</h2>
-      </div> */}
       {/* <div id="skills">
         <div>
           <img src={gradPhoto} className='gradphoto'/>

@@ -1,0 +1,42 @@
+#resume {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.resume-card {
+    /* width: 100%; */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.accordion-button {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Vertically center the content */
+    text-align: center; /* Ensure the text itself is centered */
+    width: 100%; /* Ensure the button takes full width */
+    position: relative; /* Position relative to control the arrow */
+}
+
+.accordion-button::after {
+    position: absolute; /* Position the arrow */
+    right: 10px; /* Place the arrow on the right side */
+    margin-left: auto; /* Ensure it does not affect text centering */
+}
+
+.accordion-body{
+    display:flex;
+    flex-direction: row;
+    gap:5%;
+}
+
+#resume .accordion {
+    width: 100%;
+    margin: 0 auto;
+}

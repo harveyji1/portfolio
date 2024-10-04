@@ -6,7 +6,7 @@ function Home(){
     <div id="home">
         <h5>Hello, I am</h5>
         <h1>HARVEY JI</h1>
-        <h6>Software Engineer and QA</h6>
+        <h6>Software QA Engineer and Developer</h6>
         <div className="gradphotoContainer">
             <img src={gradPhoto} className='gradphoto'/>
         </div>
