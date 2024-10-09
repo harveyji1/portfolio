@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import chiefsShirt from "../../assets/img/chiefsPFP.jpg"
 import "./AboutMe.css";
 
@@ -10,7 +11,7 @@ function AboutMe(){
 
         <div className="textContainer">
             <h1>About Me</h1>
-            <p> My name is Harvey Ji. I am a Computer Science Graduate from the University of Kansas. Thank you for visiting my website!</p>
+            <p> Hi there! I'm Harvey Ji, a Computer Science Graduate, Software QA Engineer, and Software Developer. Thank you for visiting my website!</p>
         </div>
         
     </div>

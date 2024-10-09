@@ -1,6 +1,7 @@
 #resume {
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 150px;
@@ -10,8 +11,8 @@
 }
 
 .resume-card {
-    /* width: 100%; */
-    max-width: 600px;
+    width: 80%;
+    /* max-width: 400px; */
     margin: 0 auto;
 }
 
@@ -33,10 +34,26 @@
 .accordion-body{
     display:flex;
     flex-direction: row;
-    gap:5%;
+    gap:1%;
 }
 
 #resume .accordion {
     width: 100%;
     margin: 0 auto;
+}
+
+.educationBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.universityInfo{
+    width: 100%;
+    padding-bottom: 1%;
+}
+
+.majorInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
 }

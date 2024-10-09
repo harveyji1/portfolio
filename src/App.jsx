@@ -17,7 +17,7 @@ function App() {
       <Home/>
       <AboutMe/>
       <Resume/>
-      <h1 style={{paddingTop: "150px", paddingBottom: "150px"}}>The rest of the portfolio is coming soon!</h1>
+      <h1 style={{paddingTop: "150px", paddingBottom: "150px"}}>The rest of my portfolio is coming soon!</h1>
       {/* <div id="skills">
         <div>
           <img src={gradPhoto} className='gradphoto'/>
@@ -30,13 +30,6 @@ function App() {
           <img src={gradPhoto} className='gradphoto'/>
         </div>
         <h1>Course Work</h1>
-        <h2>Coming Soon</h2>
-      </div>
-      <div id="resume">
-        <div>
-          <img src={gradPhoto} className='gradphoto'/>
-        </div>
-        <h1>Resume</h1>
         <h2>Coming Soon</h2>
       </div>
       <div id="projects">
