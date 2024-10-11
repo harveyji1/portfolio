@@ -14,7 +14,7 @@ function Resume(){
           <Accordion.Header>Education</Accordion.Header>
           <Accordion.Body className="educationBody">
             <div className="universityInfo">
-                <Card className="resume-card">
+                <Card className="resume-card" bg={'secondary'}>
                     <Card.Header>
                         August 2024 - May 2024
                     </Card.Header>

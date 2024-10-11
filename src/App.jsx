@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import AboutMe from './components/AboutMe/AboutMe';
 import Resume from './components/Resume/Resume';
+import Skills from './components/Skills/Skills';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -17,29 +18,8 @@ function App() {
       <Home/>
       <AboutMe/>
       <Resume/>
+      <Skills/>
       <h1 style={{paddingTop: "150px", paddingBottom: "150px"}}>The rest of my portfolio is coming soon!</h1>
-      {/* <div id="skills">
-        <div>
-          <img src={gradPhoto} className='gradphoto'/>
-        </div>
-        <h1>Skills</h1>
-        <h2>Coming Soon</h2>
-      </div>
-      <div id="coursework">
-        <div>
-          <img src={gradPhoto} className='gradphoto'/>
-        </div>
-        <h1>Course Work</h1>
-        <h2>Coming Soon</h2>
-      </div>
-      <div id="projects">
-        <div>
-          <img src={gradPhoto} className='gradphoto'/>
-        </div>
-        <h1>Projects</h1>
-        <h2>Coming Soon</h2>
-      </div> */}
-
     </div>
     <Footer/>
     </>

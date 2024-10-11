@@ -1,0 +1,44 @@
+@import '../../styles/theme.css';
+
+#skills {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    width: 90%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+.skillsCard{
+    background: var(--primary-color);
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 2.4rem 5rem;
+    width: 33%;
+}
+.skillsBodyContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    width: 100%;
+}
+
+h4{
+    text-align: left !important;
+    margin-top: .5rem !important;
+}
+
+article{
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    width: 50%;
+    gap: .5rem;
+}
+
+svg{
+    display: block;
+    align-items: center;
+}
