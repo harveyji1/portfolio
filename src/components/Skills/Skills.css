@@ -17,7 +17,7 @@
     border: 1px solid transparent;
     border-radius: 2rem;
     padding: 2.4rem 5rem;
-    width: 33%;
+    width: 50%;
 }
 .skillsBodyContainer{
     display: flex;
@@ -34,7 +34,7 @@ h4{
 article{
     display: flex;
     align-items: center; /* Vertically centers the content */
-    width: 50%;
+    /* width: 50%; */
     gap: .5rem;
 }
 
