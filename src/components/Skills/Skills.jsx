@@ -24,12 +24,6 @@ function Skills(){
                             <h4>TypeScript/JavaScript</h4>
                         </div>
                     </article>
-                    {/* <article>
-                        <IoMdCheckmarkCircleOutline />
-                        <div>
-                            <h4>JavaScript</h4>
-                        </div>
-                    </article> */}
                     <article>
                         <IoMdCheckmarkCircleOutline />
                         <div>

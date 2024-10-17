@@ -1,0 +1,28 @@
+@import '../../styles/theme.css';
+
+#coursework{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.courseWorkBody{
+    width: 90%;
+}
+
+.nav-tabs{
+    --bs-nav-tabs-link-active-bg: var(--primary-color) !important;
+}
+
+.nav-link{
+    color: var(--text-color) !important;
+}
+
+.nav-link.active{
+    color: var(--text-color) !important;
+}

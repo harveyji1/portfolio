@@ -76,3 +76,7 @@
 .accordion-button:not(.collapsed){
     color: var(--background-color) !important;
 }
+
+.card-text{
+    color: black !important;
+}
