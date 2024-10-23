@@ -1,5 +1,3 @@
-@import '../../styles/theme.css';
-
 #coursework{
     flex: 1;
     display: flex;
@@ -25,4 +23,12 @@
 
 .nav-link.active{
     color: var(--text-color) !important;
+}
+
+th{
+    width: 25%;
+}
+
+.favoriteClasses{
+    padding-bottom: 2rem;
 }
