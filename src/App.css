@@ -1,5 +1,15 @@
 @import './styles/theme.css';
 
+*, *::before, *::after {
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
 #root {
   margin: 0;
   padding: 0;
@@ -29,4 +39,12 @@ h1, h2, h3, h4, h5, h6{
   padding: 0;
   line-height: normal;
   color: var(--text-color);
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+      width: 100%; /* Ensure the container uses full width */
+      max-width: 100%; /* Prevent any maximum width */
+      padding: 0 15px; /* Add some padding for smaller screens */
+  }
 }

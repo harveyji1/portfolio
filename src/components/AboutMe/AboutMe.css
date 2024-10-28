@@ -1,9 +1,8 @@
-@import '../../styles/theme.css';
 #aboutme{
     flex: 1;
     display: flex;
     gap: 15%;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center; /* Vertically center content */
     align-items: center; /* Center horizontally */
     padding-bottom: 150px;
@@ -13,20 +12,55 @@
 .chiefsShirt{
     border-radius: 10px;
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     height: auto;
 }
 
-.pictureContainer{
-    justify-content: center;
+.aboutmeHeader{
+    margin-bottom: 3rem;
+}
+
+.aboutmeBody{
+    grid-gap: 15%;
+    display: grid;
+    gap: 15%;
+    grid-template-columns: 35% 50%;
+    justify-content: center; /* Vertically center content */
+    align-items: center;
 }
 
 .textContainer{
-    width: 100%;
-    max-width: 600px;
-    height: auto;
+    text-align: center;
 }
 
-p{
-    color: var(--text-color) !important; 
+/* Ensure the active item and transitioning items fit within bounds */
+.carousel-item,
+.active.carousel-item-start,
+.carousel-item-next.carousel-item-start {
+    transition: transform 50s ease; /* Set max width to fit within the container */
+  /* margin: 0 auto; */
 }
+
+/* Keep captions contained during transitions */
+.carousel-caption {
+  max-width: 100%; /* Ensure captions fit within the active image's width */
+  /* text-align: center; */
+}
+
+/* Control icons */
+.carousel-control-prev,
+.carousel-control-next {
+  max-width: 100%; /* Keep control icons within bounds */
+  /* margin: 0 auto; */
+}
+
+/* Preventing any unintended width expansion during transitions */
+.active.carousel-item-start,
+.carousel-item-next.carousel-item-start {
+  /* transition: none; */
+  max-width: 100%;
+}
+
+  /* .active carousel-item-start carousel-item
+
+carousel-item-next carousel-item-start carousel-item */
