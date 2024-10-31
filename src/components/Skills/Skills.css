@@ -15,14 +15,19 @@
     border: 1px solid transparent;
     border-radius: 2rem;
     padding: 2.4rem 5rem;
-    width: 50%;
 }
 .skillsBodyContainer{
-    display: flex;
-    flex-direction: row;
-    gap: 1%;
-    width: 100%;
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 50% 50%;
+    justify-content: center; /* Vertically center content */
+    align-items: center;
 }
+@media (max-width: 600px) { /* Adjust the width as needed */
+    .skillsBodyContainer {
+      grid-template-columns: 1fr !important;
+    }
+  }
 
 h4{
     text-align: left !important;
