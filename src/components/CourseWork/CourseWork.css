@@ -32,3 +32,11 @@ th{
 .favoriteClasses{
     padding-bottom: 2rem;
 }
+.tab-content>.active{
+    overflow-x: auto;
+}
+@media (max-width: 600px) { /* Adjust the width as needed */
+    .nav {
+      display:block !important;/* Stack them vertically */
+    }
+  }

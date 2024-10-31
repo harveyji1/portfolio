@@ -1,12 +1,30 @@
 #aboutme{
     flex: 1;
     display: flex;
+    flex-direction: column;
     gap: 15%;
     flex-direction: column;
     justify-content: center; /* Vertically center content */
     align-items: center; /* Center horizontally */
     padding-bottom: 150px;
     padding-top: 150px;
+  }
+  
+  @media (max-width: 600px) { /* Adjust the width as needed */
+    .aboutmeBody {
+      grid-template-columns: 1fr !important;/* Stack them vertically */
+    }
+    .pictureContainer{
+        width: 90%;
+        justify-self: center;
+        align-self: center
+    }
+
+    .textContainer{
+        width: 90%;
+        justify-self: center;
+        align-self: center;
+    }
   }
 
 .chiefsShirt{
@@ -31,6 +49,10 @@
 
 .textContainer{
     text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding-top: 1rem;
+    
 }
 
 /* Ensure the active item and transitioning items fit within bounds */
