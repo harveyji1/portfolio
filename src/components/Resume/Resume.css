@@ -11,6 +11,17 @@
     margin: 0 auto;
 }
 
+@media (max-width: 600px) { /* Adjust the width as needed */
+    .majorInfo {
+      grid-template-columns: 1fr !important;
+      gap: .5rem;
+    }
+    .accordion-body{
+        grid-template-columns: 1fr !important;
+        gap: .5rem;
+    }
+  }
+
 .resume-card {
     width: 80%;
     /* max-width: 400px; */
@@ -35,9 +46,8 @@
 }
 
 .accordion-body{
-    display:flex;
-    flex-direction: row;
-    gap:1%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #resume .accordion {
@@ -56,9 +66,8 @@
 }
 
 .majorInfo{
-    display: flex;
-    flex-direction: row;
-    gap: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .accordion-item{
