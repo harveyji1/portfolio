@@ -80,13 +80,13 @@ function Skills(){
                     <article>
                         <IoMdCheckmarkCircleOutline />
                         <div>
-                            <h4>Microsoft Power Automate</h4>
+                            <h4>Miscrosoft Power App </h4>
                         </div>
                     </article>
                     <article>
                         <IoMdCheckmarkCircleOutline />
                         <div>
-                            <h4>Miscrosoft Power App</h4>
+                            <h4>Power Automate</h4>
                         </div>
                     </article>
                     <article>
