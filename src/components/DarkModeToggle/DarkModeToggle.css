@@ -1,7 +1,7 @@
 /* The switch - the slider itself */
 .theme-switch {
     position: relative;
-    display: inline-block;
+    display: inline-flex;
     width: 60px;
     height: 34px;
   }
@@ -23,6 +23,7 @@
     background-color: #ccc;
     transition: 0.4s;
     border-radius: 34px;
+    z-index: 1;
   }
   
   /* Slider handle */
@@ -36,11 +37,12 @@
     background-color: white;
     transition: 0.4s;
     border-radius: 50%;
+    z-index: 2;
   }
   
   /* Checked state */
-  input:checked + .slider {
-    background-color: #2196F3;
+  input + .slider {
+    background-color: var(--primary-color);
   }
   
   input:checked + .slider:before {
@@ -55,3 +57,23 @@
   .slider.round:before {
     border-radius: 50%;
   }
+
+.sun-icon, .moon-icon {
+  position: absolute;
+  font-size: 1.2rem;
+  transition: opacity 0.3s ease;
+  z-index: 3;
+  color:black !important;
+}
+
+.sun-icon {
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.moon-icon {
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import './DarkModeToggle.css'; // We’ll add some CSS for the switch later.
+import './DarkModeToggle.css';
+import {CiLight, CiDark} from "react-icons/ci";
 
 const DarkModeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -27,8 +28,10 @@ const DarkModeToggle = () => {
 
   return (
     <label className="theme-switch">
+      <CiLight className={`icon sun-icon ${isDarkMode ? "active" : "inactive"}`} />
       <input type="checkbox" checked={isDarkMode} onChange={toggleTheme} />
       <span className="slider"></span>
+      <CiDark className={`icon moon-icon ${isDarkMode ? "active" : "active"}`} />
     </label>
   );
 };

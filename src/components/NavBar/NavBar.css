@@ -22,6 +22,10 @@ nav.navbar {
   align-items: center;
 }
 
+.theme-toggler-container{
+  display:flex;
+}
+
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
@@ -164,6 +168,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+.navbar-collapse{
+  justify-content: center;
+}
+
 .container{
   display: flex;
   flex-direction: column;
@@ -171,4 +179,50 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .warningMessage{
   color: red;
+}
+
+.margin-control{
+  margin-right: 34px;
+}
+
+@media(max-width: 600px)  {
+  .warningMessage{
+    font-size: medium;
+  }
+  .navbar-nav{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem 0rem 1rem !important;
+    row-gap: .5rem;
+  }
+  .nav-link.navbar-link{
+    padding: 0% !important;
+  }
+  .navbar-section{
+    justify-content: center;
+  }
+  .theme-toggler-container{
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .navbar-sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto; 
+    align-items: flex-start;
+  }
+  .navbar-collapse{
+    align-self: center;
+    grid-column: 1 / -1; /* Spans from the first to the last column */
+    grid-row: 2;
+  }
+
+  .navbar-toggler{
+    grid-column: 1;
+    grid-row: 1;
+    width: auto;
+    justify-self: center;
+  }
+
 }

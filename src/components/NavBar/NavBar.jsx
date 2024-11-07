@@ -38,14 +38,15 @@ function NavBar() {
           <h4 className='warningMessage'>THIS PAGE IS A WORK IN PROGRESS</h4>
         </div>
       <div className="navbar-sections">
-        <div className="navbar-section">
-          <DarkModeToggle/>
-        </div>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
+        <div className="theme-toggler-container">
+          <DarkModeToggle/>
+        </div>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className='margin-control'>
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#aboutme" className={activeLink === 'aboutme' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutme')}>About Me</Nav.Link>
             <Nav.Link href="#resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
