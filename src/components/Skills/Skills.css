@@ -27,6 +27,18 @@
 @media (max-width: 600px) { /* Adjust the width as needed */
     .skillsBodyContainer {
       grid-template-columns: 1fr !important;
+      width: 100%;
+    }
+    .skillsCard{
+        padding: 0;
+    }
+    .skillsTitle{
+        margin-top: 1.5rem;
+        margin-bottom: .5rem;
+    }
+    .skillsContent{
+        margin: 0 1rem;
+        margin-bottom: .5rem;
     }
   }
 

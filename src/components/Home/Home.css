@@ -20,5 +20,14 @@ h6{
 
 .gradphoto{
   border-radius: 10px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .gradphoto{
+    margin-bottom: 50px;
+  }
+  .helloHeader{
+    padding-top: 125px;
+  }
 }
