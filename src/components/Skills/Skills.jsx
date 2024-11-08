@@ -10,7 +10,7 @@ function Skills(){
         </div>
         <div className="skillsBodyContainer">
             <div className="skillsCard">
-                <h2>Full-Stack Development</h2>
+                <h2 className="skillsTitle">Full-Stack Development</h2>
                 <div className="skillsContent">
                     <article>
                         <IoMdCheckmarkCircleOutline />
@@ -63,7 +63,7 @@ function Skills(){
                 </div>
             </div>
             <div className="skillsCard">
-                <h2>Automation and DevOps</h2>
+                <h2 className="skillsTitle">Automation and DevOps</h2>
                 <div className="skillsContent">
                 <article>
                         <IoMdCheckmarkCircleOutline />
