@@ -62,7 +62,7 @@ function NavBar() {
               <a href="https://www.linkedin.com/in/harvey-ji-69a630200/"><SiLinkedin/></a>
               <a href="https://github.com/harveyji1"><SiGithub/></a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}>
+            <button className="vvd" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>
               <span>Let's Connect</span>
             </button>
           </span>

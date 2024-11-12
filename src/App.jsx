@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 import Resume from './components/Resume/Resume';
 import Skills from './components/Skills/Skills';
 import CourseWork from './components/CourseWork/CourseWork';
+import Contact from './components/Contact/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Resume/>
     <Skills/>
     <CourseWork/>
+    <Contact/>
     <h1 style={{paddingTop: "150px", paddingBottom: "150px"}}>The rest of my portfolio is coming soon!</h1>
     <Footer/>
     </>
