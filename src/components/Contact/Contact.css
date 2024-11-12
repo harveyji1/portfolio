@@ -1,0 +1,83 @@
+#contact{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contactBody{
+    width: 90%;
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    gap: 8rem;
+}
+
+.contactForm{
+    width: 100%;
+}
+
+.contactFormButton{
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.form-control{
+    background-color: var(--bg-color) !important;
+    border-color: var(--text-color) !important;
+    color: var(--text-color) !important;
+}
+
+.floatingFormLabel{
+    margin-bottom: 1rem;
+    color: var(--text-color) !important;
+    background-color: var(--bg-color) !important;
+}
+
+.form-floating>.form-control:focus~label::after{
+    background-color: var(--bg-color) !important;
+}
+
+.form-floating>.form-control:focus~label{
+    color: var(--text-color) !important;
+}
+
+.contactOptions{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contactCard{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+.contactIcon{
+    font-size: 32px; /* Custom icon size */
+}
+
+@media (max-width: 600px) { /* Adjust the width as needed */
+    .contactBody{
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .contactFormContainer{
+        padding-top: 1rem;
+    }
+    .contactCard{
+        width: 100%;
+    }
+}
