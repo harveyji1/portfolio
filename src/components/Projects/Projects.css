@@ -5,24 +5,43 @@
     justify-content: center;
     align-items: center;
     padding-top: 150px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .projectsBodyContainer{
     display: grid;
-    gap: 3rem; 
+    gap: 4rem; 
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .projectCard{
     background: var(--primary-color);
-    border: 1px solid transparent;
     border-radius: 2rem;
-    padding: 2.4rem 5rem;
+    padding: 2.4rem 3rem;
 }
 
 .projectImg{
-    max-width: 500px;
-    max-height: 200px;
+    max-width: 300px;
+    height: 200px;
+}
+
+.projectTitle{
+    padding-top: 1rem;
+}
+
+.projectContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectInfo{
+    padding-bottom: 1rem;
+}
+
+.projectLink{
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
 }
