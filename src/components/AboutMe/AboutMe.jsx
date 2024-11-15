@@ -36,13 +36,12 @@ function AboutMe(){
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel> */}
-        <div className="pictureContainer">
-            <img src={chiefsShirt} className='chiefsShirt'/>
-        </div>
-
-        <div className="textContainer">
-            <p> Hi there! I'm Harvey Ji, a Computer Science Graduate, Software QA Engineer, and Software Developer. Thank you for visiting my website!</p>
-        </div>
+            <div className="pictureContainer">
+                <img src={chiefsShirt} className='chiefsShirt'/>
+            </div>
+            <div className="textContainer">
+                <h5> Hi there! I'm Harvey Ji, a Computer Science Graduate, Software QA Engineer, and Software Developer. Thank you for visiting my website!</h5>
+            </div>
         </div>      
     </div>
     );

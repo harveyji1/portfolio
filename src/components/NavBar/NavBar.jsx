@@ -35,7 +35,7 @@ function NavBar() {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <div>
-          <h4 className='warningMessage'>THIS PAGE IS A WORK IN PROGRESS</h4>
+          <h6 className='warningMessage'>THIS PAGE IS A WORK IN PROGRESS</h6>
         </div>
       <div className="navbar-sections">
 

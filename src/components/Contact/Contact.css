@@ -6,7 +6,7 @@
     align-items: center;
     padding-top: 150px;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 100px;
 }
 
 .contactBody{
@@ -68,6 +68,14 @@
     font-size: 32px; /* Custom icon size */
 }
 
+.contactFormContainer{
+    /* border-color: var(--text-color) !important;
+    border-width: 1px !important;
+    border-style: solid;
+    border-radius: .5rem; */
+    padding: 1rem;
+}
+
 @media (max-width: 600px) { /* Adjust the width as needed */
     .contactBody{
         width: 100%;
@@ -75,7 +83,7 @@
         gap: 1rem;
     }
     .contactFormContainer{
-        padding-top: 1rem;
+        padding: 1rem 0;
     }
     .contactCard{
         width: 100%;

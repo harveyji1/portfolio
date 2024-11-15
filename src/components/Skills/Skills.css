@@ -16,6 +16,10 @@
     border-radius: 2rem;
     padding: 2.4rem 5rem;
 }
+
+.skillsTitle{
+    margin-bottom: .5rem;
+}
 .skillsBodyContainer{
     display: grid;
     gap: 5%;

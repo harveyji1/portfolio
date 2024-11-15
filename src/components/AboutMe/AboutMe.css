@@ -4,15 +4,16 @@
     flex-direction: column;
     gap: 15%;
     flex-direction: column;
-    justify-content: center; /* Vertically center content */
-    align-items: center; /* Center horizontally */
-    padding-bottom: 150px;
+    justify-content: center;
+    align-items: center;
     padding-top: 150px;
+    width: 90%;
+    margin: 0 auto;
   }
   
-  @media (max-width: 600px) { /* Adjust the width as needed */
+  @media (max-width: 600px) {
     .aboutmeBody {
-      grid-template-columns: 1fr !important;/* Stack them vertically */
+      grid-template-columns: 1fr !important;
     }
     .pictureContainer{
         width: 90%;
@@ -43,7 +44,7 @@
     display: grid;
     gap: 15%;
     grid-template-columns: 35% 50%;
-    justify-content: center; /* Vertically center content */
+    justify-content: center;
     align-items: center;
 }
 
@@ -51,7 +52,7 @@
     text-align: center;
     background-color: var(--primary-color);
     border-radius: 5px;
-    padding-top: 1rem;
+    padding: 1rem .5rem;
     
 }
 
