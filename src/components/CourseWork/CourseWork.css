@@ -15,6 +15,12 @@
 
 .nav-tabs{
     --bs-nav-tabs-link-active-bg: var(--primary-color) !important;
+    --bs-nav-tabs-border-color: var(--text-color) !important;
+    --bs-nav-tabs-link-hover-border-color: var(--text-color) !important;
+}
+
+.nav-tabs .nav-link.active{
+    border-color: var(--text-color) !important;
 }
 
 .nav-link{
@@ -23,6 +29,14 @@
 
 .nav-link.active{
     color: var(--text-color) !important;
+}
+
+.courseWorkTable{
+    --bs-table-bg: var(--bg-color) !important;
+    --bs-table-color: var(--text-color) !important;
+    --bs-table-striped-color: var(--text-color) !important;
+    --bs-table-striped-bg: var(--primary-color) !important;
+    --bs-table-border-color: var(--text-color) !important;
 }
 
 th{
@@ -35,9 +49,9 @@ th{
 .tab-content>.active{
     overflow-x: auto;
 }
-@media (max-width: 600px) { /* Adjust the width as needed */
+@media (max-width: 600px) {
     .nav {
-      display:block !important;/* Stack them vertically */
+      display:block !important;
     }
     .courseWorkBody{
         width: 100%;

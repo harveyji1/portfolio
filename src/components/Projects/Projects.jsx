@@ -23,14 +23,14 @@ function Projects(){
         </div>
         <div className="projectsBodyContainer">
             <div className="projectCard">
-                <div>
+                <div className = "cookItImgs">
                     <img src={cookItHome} className='projectImg'/>
                     <img src={cookItSaved} className='projectImg'/>
                     <img src={cookItPost} className='projectImg'/>
                 </div>
                 <h2 className="projectTitle">Cook-It</h2>
                 <div className="projectContent">
-                    <h4 className='projectInfo'>React Native, Expo, TypeScript</h4>
+                    <h4 className='projectInfo'>React Native, TypeScript</h4>
                     <Button className='projectLink' onClick={cookItButton}>GitHub</Button>
                 </div>
             </div>

@@ -10,7 +10,7 @@ export const Footer = () => {
                     <Col>
                         <Stack>
                             <img src={spongebobFingerGuns} className="sponge"></img>
-                            <p>Welcome to the footer</p>
+                            <p className="footerText">Welcome to the footer</p>
                         </Stack>
                     </Col>
                     <Col>
@@ -22,7 +22,7 @@ export const Footer = () => {
                     </Col>
                     <Col>
                         <Stack>
-                            <p>CopyRight 2024. All Right Reserved</p>
+                            <p className="footerText">CopyRight 2024. All Right Reserved</p>
                         </Stack>
                     </Col>
                 </Row>
