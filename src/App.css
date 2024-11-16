@@ -1,5 +1,12 @@
 @import './styles/theme.css';
 
+@font-face {
+  font-family: 'BlackMango';
+  src: url('./fonts/BlackMango-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *, *::before, *::after {
   border: 0;
   box-sizing: border-box;
@@ -30,7 +37,7 @@ body{
   position: relative;
   background-color: var(--bg-color) !important;
   color: var(--text-color) !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: 'BlackMango', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6{

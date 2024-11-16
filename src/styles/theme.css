@@ -1,15 +1,15 @@
 :root {
     /* Light theme colors */
-    --bg-color: #e0e0e0;
-    --text-color: #1a1a1a;
-    --primary-color: #3f7eab;
-    --secondary-color: #8c8c8c;
+    --bg-color: #f1e3dd;
+    --text-color: #233349;
+    --primary-color: #9EAFB6;
+    --secondary-color: #A8512F;
   }
   
   .dark-mode {
     /* Dark theme colors */
-    --bg-color: #1a1a1a;
-    --text-color: #e0e0e0;
-    --primary-color: #3f7eab;
-    --secondary-color: #8c8c8c;
+    --bg-color: #233349;
+    --text-color: #f1e3dd;
+    --primary-color: #9EAFB6;
+    --secondary-color: #A8512F;
   }

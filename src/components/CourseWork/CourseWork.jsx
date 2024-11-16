@@ -47,7 +47,7 @@ const courses = {
     { name: "Social Problems and American Values", professor: "Jarron Saint Onge", skills: "Exploring Inequality, Justice, and Policy", rating: "9.0/10" },
     { name: "Applied Mathematical Statistics", professor: "Joonha Park", skills: "Statistical Analysis and Probability", rating: "8.4/10" }
   ],
-  "honors-others": [
+  "honors": [
     { name: "Stick To Sports: Politics and Sport", professor: "Mauricio Gomez Montoya", skills: "Sociopolitical Issues and Influence", rating: "6.4/10" },
     { name: "Intro to Digital Logic Honors", professor: "David Johnson", skills: "Boolean Algebra, Logic Gates, Circuit Design", rating: "9.7/10" },
     { name: "Speaker-Audience Communication Honors", professor: "Jack Porter", skills: "Vector Spaces, Matrices, Determinants", rating: "6.7/10" },

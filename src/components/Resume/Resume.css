@@ -29,25 +29,28 @@
 }
 
 .accordion-button {
-    display: flex; /* Use flexbox for alignment */
-    justify-content: center; /* Center the text horizontally */
-    align-items: center; /* Vertically center the content */
-    text-align: center; /* Ensure the text itself is centered */
-    width: 100%; /* Ensure the button takes full width */
-    position: relative; /* Position relative to control the arrow */
-    background-color: var(--secondary-color) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    background-color: var(--primary-color) !important;
+    color: var(--text-color) !important;
 }
 
 .accordion-button::after {
-    position: absolute; /* Position the arrow */
-    right: 10px; /* Place the arrow on the right side */
-    margin-left: auto; /* Ensure it does not affect text centering */
+    position: absolute;
+    right: 10px;
+    margin-left: auto;
     color: var(--text-color) !important;
+    background-image: none !important;
 }
 
 .accordion-body{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--text-color);
 }
 
 #resume .accordion {
@@ -75,17 +78,48 @@
 }
 
 .accordion-button:focus, .accordion-button:focus-visible {
-    box-shadow: 0 0 0 0px var(--primary-color) !important; /* Optional: customize focus box-shadow */
+    box-shadow: 0 0 0 0px var(--primary-color) !important;
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: var(--bs-accordion-btn-icon) !important;
+    background-image: none !important;
 }
 
 .accordion-button:not(.collapsed){
     color: var(--background-color) !important;
+    color: var(--text-color) !important;
 }
 
-.card-text{
-    color: black !important;
+.card{
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
 }
+
+.list-group-item {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+/* .card-text{
+    color: var(--text-color) !important;
+} */
+
+.card-body {
+    color: var(--text-color) !important;
+    background-color: var(--primary-color);
+}
+
+/* .card-header{
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+} */
+
+.chevron-icon {
+    display: inline-block;
+    margin-left: 8px;
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .rotate-icon {
+    transform: rotate(180deg); /* Rotate the icon 180 degrees */
+  }
