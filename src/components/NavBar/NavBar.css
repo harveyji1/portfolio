@@ -4,7 +4,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
-  background-color: #4b515d;
+  background-color: var(--primary-color);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }

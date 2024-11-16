@@ -20,7 +20,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
     transition: 0.4s;
     border-radius: 34px;
     z-index: 1;
@@ -42,7 +41,7 @@
   
   /* Checked state */
   input + .slider {
-    background-color: var(--primary-color);
+    background-color: var(--bg-color);
   }
   
   input:checked + .slider:before {
@@ -58,12 +57,19 @@
     border-radius: 50%;
   }
 
-.sun-icon, .moon-icon {
+.sun-icon {
   position: absolute;
   font-size: 1.2rem;
   transition: opacity 0.3s ease;
   z-index: 3;
-  color:black !important;
+  color:var(--text-color) !important;
+}
+.moon-icon {
+  position: absolute;
+  font-size: 1.2rem;
+  transition: opacity 0.3s ease;
+  z-index: 3;
+  color: #233349 !important;
 }
 
 .sun-icon {

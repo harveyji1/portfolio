@@ -1,6 +1,6 @@
 :root {
     /* Light theme colors */
-    --bg-color: #EDD6CC;
+    --bg-color: #f1e3dd;
     --text-color: #233349;
     --primary-color: #9EAFB6;
     --secondary-color: #A8512F;
@@ -9,7 +9,7 @@
   .dark-mode {
     /* Dark theme colors */
     --bg-color: #233349;
-    --text-color: #EDD6CC;
+    --text-color: #f1e3dd;
     --primary-color: #9EAFB6;
     --secondary-color: #A8512F;
   }
