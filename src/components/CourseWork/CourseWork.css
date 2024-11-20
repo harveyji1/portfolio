@@ -13,6 +13,10 @@
     width: 90%;
 }
 
+/* .courseWorkTableHeader th {
+    font-weight: 700;
+} */
+
 .nav-tabs{
     --bs-nav-tabs-link-active-bg: var(--primary-color) !important;
     --bs-nav-tabs-border-color: var(--text-color) !important;

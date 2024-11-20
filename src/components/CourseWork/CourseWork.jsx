@@ -1,16 +1,16 @@
-/* eslint-disable react/no-unescaped-entities */
 import "./CourseWork.css";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Table from 'react-bootstrap/Table';
+import PropTypes from 'prop-types';
 
 function TableHeader() {
   return (
     <thead className = "courseWorkTableHeader">
       <tr>
         <th>Class Name</th>
-        <th>Professor</th>
         <th>Skills Learned</th>
+        <th>Professor</th>
         <th>My Personal Rating</th>
       </tr>
     </thead>
@@ -57,6 +57,18 @@ const courses = {
   ]
 };
 
+// Prop validation
+CourseTable.propTypes = {
+  courses: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      skills: PropTypes.string.isRequired,
+      professor: PropTypes.string.isRequired,
+      rating: PropTypes.number.isRequired,
+    })
+  ).isRequired,
+};
+
 function CourseTable({ courses }) {
   return (
     <Table striped bordered className="courseWorkTable">
@@ -65,8 +77,8 @@ function CourseTable({ courses }) {
         {courses.map((course, index) => (
           <tr key={index}>
             <td>{course.name}</td>
-            <td>{course.professor}</td>
             <td>{course.skills}</td>
+            <td>{course.professor}</td>
             <td>{course.rating}</td>
           </tr>
         ))}

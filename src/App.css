@@ -14,6 +14,13 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'Technica';
+  src: url('./fonts/Technica-Bold.otf') format('truetype');
+  font-weight: 700;
+}
+
 *, *::before, *::after {
   border: 0;
   box-sizing: border-box;

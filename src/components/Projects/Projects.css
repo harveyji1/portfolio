@@ -48,8 +48,8 @@
 }
 
 .projectLink{
-    background-color: #D3A292 !important;
-    border-color: #D3A292 !important;
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
     color: var(--text-color) !important;
 }
 

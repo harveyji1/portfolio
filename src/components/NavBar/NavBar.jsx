@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 //import NavDropdown from 'react-bootstrap/NavDropdown';
 import './NavBar.css';
 import { useState, useEffect } from 'react';
-import { SiIndeed, SiLinkedin, SiGithub } from 'react-icons/si';
+import { SiIndeed, SiLinkedin, SiGithub, SiLeetcode } from 'react-icons/si';
 import DarkModeToggle from '../DarkModeToggle/DarkModeToggle';
 
 function NavBar() {
@@ -61,6 +61,7 @@ function NavBar() {
               <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage"><SiIndeed/></a>
               <a href="https://www.linkedin.com/in/harvey-ji-69a630200/"><SiLinkedin/></a>
               <a href="https://github.com/harveyji1"><SiGithub/></a>
+              <a href="https://leetcode.com/u/harvey_ji"><SiLeetcode/></a>
             </div>
             <button className="vvd" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>
               <span>Let's Connect</span>
