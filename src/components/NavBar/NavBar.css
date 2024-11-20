@@ -226,4 +226,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     justify-self: center;
   }
 
+  .social-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: .5rem;
+  }
+
 }
