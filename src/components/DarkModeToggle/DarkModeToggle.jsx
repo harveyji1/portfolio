@@ -3,12 +3,15 @@ import './DarkModeToggle.css';
 import {CiLight, CiDark} from "react-icons/ci";
 
 const DarkModeToggle = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   // Load the theme from localStorage on component mount
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark') {
+    if (savedTheme === 'light') {
+      document.body.classList.remove('dark-mode');
+      setIsDarkMode(false);
+    } else {
       document.body.classList.add('dark-mode');
       setIsDarkMode(true);
     }

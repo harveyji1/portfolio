@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    padding: 75px 0px;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -100,26 +100,29 @@
     color: var(--text-color) !important;
 }
 
-/* .card-text{
-    color: var(--text-color) !important;
-} */
-
 .card-body {
     color: var(--text-color) !important;
     background-color: var(--primary-color);
 }
 
-/* .card-header{
-    background-color: var(--background-color) !important;
-    color: var(--text-color) !important;
-} */
-
 .chevron-icon {
-    display: inline-block;
-    margin-left: 8px;
-    transition: transform 0.3s ease; /* Smooth transition */
-  }
+display: inline-block;
+margin-left: 8px;
+transition: transform 0.3s ease;
+}
   
-  .rotate-icon {
-    transform: rotate(180deg); /* Rotate the icon 180 degrees */
-  }
+.rotate-icon {
+transform: rotate(180deg);
+}
+
+.resumeButtonContainer{
+    margin-top: 2.5rem;
+}
+
+.resumeButton{
+    color: var(--bright-color) !important;
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+    font-size: 20px !important;
+    padding: .5rem 1rem !important;
+}
