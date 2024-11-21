@@ -4,12 +4,17 @@ import Card from "react-bootstrap/Card";
 import { ListGroup } from "react-bootstrap";
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa6";
+import Button from 'react-bootstrap/Button';
 
 function Resume() {
   // State to control icon rotation for each Accordion item
   const [educationOpen, setEducationOpen] = useState(true); // Open by default
   const [workOpen, setWorkOpen] = useState(false);
   const [leadershipOpen, setLeadershipOpen] = useState(false);
+
+  const resumeButton = () => {
+    window.open('/portfolio/Harvey-Ji-Resume.pdf', '_blank');
+  };
 
   return (
     <div id="resume">
@@ -174,6 +179,9 @@ function Resume() {
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
+      <div className="resumeButtonContainer">
+        <Button onClick={resumeButton} className="resumeButton">See Full Resume</Button>
+      </div>
     </div>
   );
 }
