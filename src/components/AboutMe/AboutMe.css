@@ -12,69 +12,68 @@
   }
   
   @media (max-width: 600px) {
-    .aboutmeBody {
-      grid-template-columns: 1fr !important;
-    }
-    .pictureContainer{
-        width: 90%;
-        justify-self: center;
-        align-self: center
+
+    .carousel{
+      width: 90%;
     }
 
-    .textContainer{
-        width: 90%;
-        justify-self: center;
-        align-self: center;
-    }
+    .aboutmePic{
+      width: 90% !important;
+      max-width: 400px;
+  }
   }
 
-.chiefsShirt{
+.aboutmePic{
     border-radius: 10px;
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     height: auto;
+    padding-bottom: 10rem;
 }
 
-.aboutmeHeader{
-    margin-bottom: 3rem;
-}
 
 .aboutmeBody{
-    grid-gap: 15%;
-    display: grid;
-    gap: 15%;
-    grid-template-columns: 35% 50%;
+    /* grid-gap: 15%; */
+    display: block;
+    /* gap: 15%; */
+    /* grid-template-columns: 35% 50%; */
     justify-content: center;
     align-items: center;
 }
 
-.textContainer{
-    text-align: center;
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    padding: 1rem .5rem;
-    
+.controlIcon{
+  font-size: 2rem;
+  color: var(--text-color) !important;
+  margin-bottom: 10px;
+}
+
+.carousel{
+  width: 400px;
+}
+
+.carousel-caption{
+  color: var(--text-color) !important;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: var(--text-color) !important;
 }
 
 /* Ensure the active item and transitioning items fit within bounds */
 .carousel-item,
 .active.carousel-item-start,
 .carousel-item-next.carousel-item-start {
-    transition: transform 50s ease; /* Set max width to fit within the container */
+    transition: transform 2.5s ease; /* Set max width to fit within the container */
   /* margin: 0 auto; */
-}
-
-/* Keep captions contained during transitions */
-.carousel-caption {
-  max-width: 100%; /* Ensure captions fit within the active image's width */
-  /* text-align: center; */
 }
 
 /* Control icons */
 .carousel-control-prev,
 .carousel-control-next {
-  max-width: 100%; /* Keep control icons within bounds */
-  /* margin: 0 auto; */
+  align-items: flex-end !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  margin-bottom: 10px;
 }
 
 /* Preventing any unintended width expansion during transitions */

@@ -176,12 +176,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-direction: column;
 }
 
-.warningMessage{
-  color: var(--secondary-color);
-  padding: 0;
-  margin: 0;
-}
-
 .margin-control{
   margin-right: 34px;
 }
