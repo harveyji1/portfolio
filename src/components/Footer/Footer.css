@@ -1,18 +1,19 @@
 .footer {
     text-align: center;
-    padding: 20px 10px 0px 10px;
+    padding: 10px;
     background-color: var(--primary-color);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .footerText{
-    color:#fff !important;
+    color: var(--bright-color) !important;
+    margin-bottom: auto;
 }
 
 .sponge{
-    width: 20%;
-    height: 20%;
+    width: 100px;
+    /* height: ; */
     display: block;
     margin: 0 auto;
 }
@@ -26,7 +27,7 @@
 }
 
 .links{
-    color:#fff
+    color: var(--bright-color) !important;
 }
 
 /* p{

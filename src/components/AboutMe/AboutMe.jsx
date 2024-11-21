@@ -1,8 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import chiefsShirt from "../../assets/img/chiefsPFP.jpg"
+import chiefsShirt from "../../assets/img/chiefsPFP.jpg";
 import "./AboutMe.css";
-//import Carousel from 'react-bootstrap/Carousel';
-//import ExampleCarouselImage from 'components/ExampleCarouselImage';
+import Carousel from 'react-bootstrap/Carousel';
+import ATO from "../../assets/img/ATO.jpg";
+import ggGolf from "../../assets/img/ggGolf.jpg";
+import milanDuomo from "../../assets/img/milanDuomo.jpg";
+import { RiArrowLeftWideFill, RiArrowRightWideFill } from "react-icons/ri";
+
 
 function AboutMe(){
     return(
@@ -11,37 +15,43 @@ function AboutMe(){
             <h1>About Me</h1>
         </div>
         <div className="aboutmeBody">
-            {/* <Carousel>
+            <Carousel
+             nextIcon={<RiArrowRightWideFill className="controlIcon"/>}
+             prevIcon={<RiArrowLeftWideFill className="controlIcon"/>}
+             >
                 <Carousel.Item interval={7500}>
-                    <img src={chiefsShirt} className='chiefsShirt'/>
+                    <img src={chiefsShirt} className='aboutmePic'/>
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Chiefs Fan</h3>
+                        <p>Born and raised in Kansas City</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={7500}>
-                    <img src={chiefsShirt} className='chiefsShirt'/>
+                <img src={ATO} className='aboutmePic'/>
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>ATO Alumni</h3>
+                    <p>ATO Recruitment Chair and IFC Director of Recruitment</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item  interval={7500}> 
-                    <img src={chiefsShirt} className='chiefsShirt'/>
+                <img src={ggGolf} className='aboutmePic'/>
                     <Carousel.Caption>
-                    <h3>Third slide label</h3>
+                    <h3>Golf</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        I love it, but I'm terrible
                     </p>
                     </Carousel.Caption>
                 </Carousel.Item>
-            </Carousel> */}
-            <div className="pictureContainer">
-                <img src={chiefsShirt} className='chiefsShirt'/>
-            </div>
-            <div className="textContainer">
-                <h5> Hi there! I'm Harvey Ji, a Computer Science Graduate, Software QA Engineer, and Software Developer. Thank you for visiting my website!</h5>
-            </div>
+                <Carousel.Item  interval={7500}> 
+                <img src={milanDuomo} className='aboutmePic'/>
+                    <Carousel.Caption>
+                    <h3>Traveling</h3>
+                    <p>
+                        I love to travel! 12 countries and counting
+                    </p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
         </div>      
     </div>
     );
