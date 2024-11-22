@@ -46,7 +46,7 @@ function Resume() {
             <div className="majorInfo">
               <Card className="resume-card">
                 <Card.Body>
-                  <Card.Title>Computer Science Major</Card.Title>
+                  <Card.Title>Computer Science BS</Card.Title>
                   <Card.Text>School of Engineering</Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">

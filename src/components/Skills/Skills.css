@@ -11,9 +11,14 @@
 
 .skillsCard{
     background: var(--primary-color);
-    border: 1px solid transparent;
+    border: 1px solid var(--primary-color);
     border-radius: 2rem;
     padding: 2.4rem 5rem;
+    transition: 400ms ease;
+}
+
+.skillsCard:hover{
+    background: transparent;
 }
 
 .skillsTitle{
@@ -44,6 +49,17 @@
         margin-bottom: .5rem;
     }
   }
+
+@media (min-width: 600px) and (max-width: 1200px){
+    .skillsBodyContainer {
+        grid-template-columns: 1fr !important;
+        width: 100%;
+      }
+      .skillsContent{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+      }
+}
 
 h4{
     text-align: left !important;

@@ -5,14 +5,18 @@
     justify-content: center;
     align-items: center;
     padding: 75px 0;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
 .projectsBodyContainer{
     display: grid;
     gap: 4rem; 
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .projectCard{
@@ -54,12 +58,19 @@
     font-size: 20px !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     .projectsBodyContainer{
         gap: 2rem; 
         grid-template-columns: 1fr;
+        max-width: none !important;
     }
     .projectCard{
         padding: 1.4rem 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .projectInfo {
+        font-size: 1.25rem;
     }
 }
