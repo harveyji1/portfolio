@@ -66,22 +66,14 @@
     flex-direction: column;
     gap: .5rem;
     padding: 1rem 0;
-    width: 80%;
+    width: 100%;
 }
 
 .contactIcon{
-    font-size: 32px; /* Custom icon size */
+    font-size: 32px;
 }
 
-/* .contactFormContainer{
-    border-color: var(--text-color) !important;
-    border-width: 1px !important;
-    border-style: solid;
-    border-radius: .5rem;
-    padding: 1rem;
-} */
-
-@media (max-width: 600px) { /* Adjust the width as needed */
+@media (max-width: 600px) {
     .contactBody{
         width: 100%;
         grid-template-columns: 1fr;

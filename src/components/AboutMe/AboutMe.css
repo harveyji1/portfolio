@@ -63,7 +63,7 @@
 .carousel-item,
 .active.carousel-item-start,
 .carousel-item-next.carousel-item-start {
-    transition: transform 2.5s ease; /* Set max width to fit within the container */
+    transition: transform .75s ease; /* Set max width to fit within the container */
   /* margin: 0 auto; */
 }
 
