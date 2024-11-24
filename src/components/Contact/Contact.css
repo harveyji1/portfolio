@@ -73,6 +73,14 @@
     font-size: 32px;
 }
 
+.form-floating>.form-control:not(:placeholder-shown)~label::after{
+    background-color: var(--bg-color) !important;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label{
+    color: var(--text-color) !important;
+}
+
 @media (max-width: 600px) {
     .contactBody{
         width: 100%;
