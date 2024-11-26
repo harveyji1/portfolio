@@ -38,7 +38,7 @@ function AboutMe(){
                     <Carousel.Caption>
                     <h3>Golf</h3>
                     <p>
-                        I love it, but I'm terrible
+                        I'm terrible but pictured here with <a href="https://www.youtube.com/@GoodGood">Good Good Golf</a>
                     </p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -47,7 +47,7 @@ function AboutMe(){
                     <Carousel.Caption>
                     <h3>Traveling</h3>
                     <p>
-                        I love to travel! 12 countries and counting
+                       12 countries and counting! Pictured at the Duomo in Milan
                     </p>
                     </Carousel.Caption>
                 </Carousel.Item>
