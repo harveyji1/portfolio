@@ -48,8 +48,8 @@ function Projects(){
                 </div>
                 <h2 className="projectTitle">A Dark Moon</h2>
                 <div className="projectContent">                    
-                    <h4 className='projectInfo' onClick={darkMoonButton}>JavaScript, HTML, Github</h4>
-                    <Button className='projectLink'>GitHub</Button>
+                    <h4 className='projectInfo'>JavaScript, HTML, Github</h4>
+                    <Button className='projectLink' onClick={darkMoonButton}>GitHub</Button>
                 </div>
             </div>
         </div>
