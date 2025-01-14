@@ -27,11 +27,13 @@ function AboutMe(){
                         <p>Born and raised in Kansas City</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={7500}>
-                <img src={ATO} className='aboutmePic'/>
+                <Carousel.Item  interval={7500}> 
+                <img src={milanDuomo} className='aboutmePic'/>
                     <Carousel.Caption>
-                    <h3>ATO Alumni</h3>
-                    <p>ATO Recruitment Chair and IFC Director of Recruitment</p>
+                    <h3>Traveling</h3>
+                    <p>
+                       12 countries and counting! Pictured at the Duomo in Milan
+                    </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item  interval={7500}> 
@@ -52,13 +54,11 @@ function AboutMe(){
                     </p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item  interval={7500}> 
-                <img src={milanDuomo} className='aboutmePic'/>
+                <Carousel.Item interval={7500}>
+                <img src={ATO} className='aboutmePic'/>
                     <Carousel.Caption>
-                    <h3>Traveling</h3>
-                    <p>
-                       12 countries and counting! Pictured at the Duomo in Milan
-                    </p>
+                    <h3>ATO Alumni</h3>
+                    <p>ATO Recruitment Chair and IFC Director of Recruitment</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
