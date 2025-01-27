@@ -68,6 +68,12 @@ function Skills(){
                 <article>
                         <IoMdCheckmarkCircleOutline />
                         <div>
+                            <h4>Miscrosoft Azure</h4>
+                        </div>
+                </article>
+                <article>
+                        <IoMdCheckmarkCircleOutline />
+                        <div>
                             <h4>Cypress</h4>
                         </div>
                     </article>
@@ -98,13 +104,7 @@ function Skills(){
                     <article>
                         <IoMdCheckmarkCircleOutline />
                         <div>
-                            <h4>GitLab</h4>
-                        </div>
-                    </article>
-                    <article>
-                        <IoMdCheckmarkCircleOutline />
-                        <div>
-                            <h4>GitHub</h4>
+                            <h4>GitHub/GitLab</h4>
                         </div>
                     </article>
                     <article>
