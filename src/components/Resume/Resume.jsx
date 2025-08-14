@@ -88,12 +88,12 @@ function Resume() {
             <Card className="resume-card">
               <Card.Header>August 2024 - Present</Card.Header>
               <Card.Body>
-                <Card.Title>Software QA Engineer</Card.Title>
+                <Card.Title>Software Engineer</Card.Title>
                 <Card.Text>BASYS Processing</Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
-                <ListGroup.Item>Cypress and Playwright Automation</ListGroup.Item>
-                <ListGroup.Item>Jira and Github for Version Control</ListGroup.Item>
+                <ListGroup.Item>C#, Razor, SQL, and Javascript</ListGroup.Item>
+                <ListGroup.Item>Azure, Jira, and Github for DevOps</ListGroup.Item>
               </ListGroup>
             </Card>
             <Card className="resume-card">
@@ -115,7 +115,7 @@ function Resume() {
               </Card.Body>
               <ListGroup className="list-group-flush">
                 <ListGroup.Item>Automation for Business Processes</ListGroup.Item>
-                <ListGroup.Item>Microsoft Power Automate and Power Apps</ListGroup.Item>
+                <ListGroup.Item>Power Automate and Power Apps</ListGroup.Item>
               </ListGroup>
             </Card>
           </Accordion.Body>
@@ -146,7 +146,7 @@ function Resume() {
                   Directed recruitment across the university
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Lead meetings with lasting effect on Greek Life
+                  Lead meetings across all Greek Life
                 </ListGroup.Item>
               </ListGroup>
             </Card>
